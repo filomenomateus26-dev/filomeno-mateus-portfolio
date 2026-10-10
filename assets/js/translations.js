@@ -4,7 +4,7 @@
 const T = {
 pt:{
  "skip":"Saltar para o conteúdo","nav.aria":"Principal","nav.menu":"Abrir menu","nav.home":"Início","nav.services":"Serviços","nav.projects":"Projetos","nav.process":"Processo","nav.contact":"Contacto","lang.aria":"Idioma",
- "cta.talk":"Vamos conversar","role":"Digital Designer & Web Solutions Freelancer",
+ "cta.talk":"Vamos conversar","fab.t":"Falar no WhatsApp","fab.aria":"Falar comigo no WhatsApp","role":"Digital Designer & Web Solutions Freelancer",
  "hero.eyebrow":"DIGITAL DESIGNER & WEB SOLUTIONS FREELANCER","hero.h1":"Transformo ideias em experiências digitais que fazem o teu negócio avançar.",
  "hero.sub":"Crio websites, conteúdos visuais e pequenas soluções digitais para ajudar marcas e negócios a comunicar melhor, organizar processos e crescer.",
  "hero.cta1":"Vamos conversar","hero.cta2":"Explorar projetos","hero.label":"Angola + clientes internacionais",
@@ -45,7 +45,7 @@ pt:{
 },
 en:{
  "skip":"Skip to content","nav.aria":"Main","nav.menu":"Open menu","nav.home":"Home","nav.services":"Services","nav.projects":"Projects","nav.process":"Process","nav.contact":"Contact","lang.aria":"Language",
- "cta.talk":"Let's talk","role":"Digital Designer & Web Solutions Freelancer",
+ "cta.talk":"Let's talk","fab.t":"Chat on WhatsApp","fab.aria":"Chat with me on WhatsApp","role":"Digital Designer & Web Solutions Freelancer",
  "hero.eyebrow":"DIGITAL DESIGNER & WEB SOLUTIONS FREELANCER","hero.h1":"I turn ideas into digital experiences that move your business forward.",
  "hero.sub":"I create websites, visual content, and small digital solutions that help brands communicate better, organize processes, and grow.",
  "hero.cta1":"Let's talk","hero.cta2":"Explore projects","hero.label":"Angola + international clients",

@@ -11,6 +11,7 @@ assets/css/styles.css      estilos
 assets/js/config.js        EMAIL, WHATSAPP, REDES SOCIAIS e FORMULÁRIO (edita aqui)
 assets/js/translations.js  todos os textos em PT e EN (edita aqui)
 assets/js/main.js          lógica (idioma, menu, formulário)
+assets/js/scene3d.js       experiência 3D (partículas WebGL, inclinação dos cartões)
 assets/img/                fotografia em 3 tamanhos
 favicon.svg, apple-touch-icon.png, og-image.png
 netlify.toml, vercel.json  cabeçalhos de segurança e cache

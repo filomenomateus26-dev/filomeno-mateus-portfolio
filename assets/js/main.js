@@ -26,7 +26,7 @@ function applyLang(l){
   const od = $('meta[property="og:description"]'); if (od) od.setAttribute("content", t("meta.desc"));
   const ol = $('meta[property="og:locale"]'); if (ol) ol.setAttribute("content", l === "pt" ? "pt_AO" : "en_US");
   const wa = waLink(t("wa.general"));
-  ["wa-link","foot-wa"].forEach(id => { const a = document.getElementById(id); if (a) a.href = wa; });
+  ["wa-link","foot-wa","fab-wa"].forEach(id => { const a = document.getElementById(id); if (a) a.href = wa; });
   const ta = $("#f-msg");
   if (ta && ta.dataset.auto) ta.value = t("pre." + ta.dataset.auto);
   if (lastStatus) renderStatus(lastStatus.kind, lastStatus.type);
@@ -177,3 +177,15 @@ $("#send-wa").addEventListener("click", () => {
 
 $("#year").textContent = new Date().getFullYear();
 applyLang(lang);
+
+/* Botão flutuante (telemóvel): aparece depois do hero, esconde-se no contacto */
+(function(){
+  const fab = $("#fab-wa"), hero = $("#home"), ct = $("#contact");
+  if (!fab || !hero || !ct || !("IntersectionObserver" in window)) return;
+  const vis = { home:true, contact:false };
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => { vis[e.target.id] = e.isIntersecting; });
+    fab.classList.toggle("show", !vis.home && !vis.contact);
+  }, { rootMargin:"0px 0px -20% 0px" });
+  io.observe(hero); io.observe(ct);
+})();

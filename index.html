@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="assets/js/boot.js"></script>
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/styles.css?v=3d2">
 </head>
 <body>
 
@@ -121,7 +121,7 @@
     </div>
     <div class="svc-grid">
 
-      <article class="svc svc-1 frame">
+      <article class="svc svc-1 frame" data-tilt="5">
         <div class="mini" aria-hidden="true"><div class="mini-b"><i></i><i></i><i></i></div><div><div><div class="bar-l a"></div><div class="bar-l w"></div><div class="bar-l s"></div></div><div class="blk"></div></div></div>
         <span class="svc-ico" aria-hidden="true"><svg class="icon"><use href="#i-layout"/></svg></span>
         <h3 data-i18n="svc.1.t">Websites &amp; Landing Pages</h3>
@@ -137,7 +137,7 @@
         <a class="btn btn-accent" href="#contact" data-service="websites"><span data-i18n="svc.cta">Falar sobre este serviço</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </article>
 
-      <article class="svc svc-2 frame">
+      <article class="svc svc-2 frame" data-tilt="5">
         <div class="mini mini-v" aria-hidden="true"><i></i><i></i><i></i></div>
         <span class="svc-ico" aria-hidden="true"><svg class="icon"><use href="#i-video"/></svg></span>
         <h3 data-i18n="svc.2.t">Conteúdo audiovisual &amp; design para redes sociais</h3>
@@ -151,7 +151,7 @@
         <a class="btn btn-dark" href="#contact" data-service="content"><span data-i18n="svc.cta">Falar sobre este serviço</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </article>
 
-      <article class="svc svc-3 frame">
+      <article class="svc svc-3 frame" data-tilt="2.5">
         <div class="col">
           <span class="svc-ico" aria-hidden="true"><svg class="icon"><use href="#i-dash"/></svg></span>
           <h3 data-i18n="svc.3.t">Aplicações web &amp; micro-SaaS</h3>
@@ -189,7 +189,7 @@
       <article class="case" aria-labelledby="p1-t">
         <div>
           <span class="badge"><svg class="icon" aria-hidden="true"><use href="#i-flask"/></svg><span data-i18n="prj.badge">Conceito demonstrativo</span></span>
-          <div class="vis v-rest" role="img" aria-label="Pré-visualização ilustrativa de uma landing page de restaurante com menu, horário, localização e botão de reserva" data-i18n-attr="aria-label:p1.alt">
+          <div class="vis v-rest" data-tilt="4" role="img" aria-label="Pré-visualização ilustrativa de uma landing page de restaurante com menu, horário, localização e botão de reserva" data-i18n-attr="aria-label:p1.alt">
             <div class="mock rest" aria-hidden="true">
               <div class="rest-top"><span class="rest-logo" data-i18n="m1.logo">Nome do restaurante</span><span class="rest-links" data-i18n="m1.links">Menu · Local · Horário</span><span class="rest-btn" data-i18n="m1.btn">Reservar</span></div>
               <div class="rest-body">
@@ -221,7 +221,7 @@
       <article class="case flip" aria-labelledby="p2-t">
         <div>
           <span class="badge"><svg class="icon" aria-hidden="true"><use href="#i-flask"/></svg><span data-i18n="prj.badge">Conceito demonstrativo</span></span>
-          <div class="vis v-fash" role="img" aria-label="Pré-visualização ilustrativa de uma campanha de moda com cartaz, publicação para redes sociais e vídeo vertical" data-i18n-attr="aria-label:p2.alt">
+          <div class="vis v-fash" data-tilt="4" role="img" aria-label="Pré-visualização ilustrativa de uma campanha de moda com cartaz, publicação para redes sociais e vídeo vertical" data-i18n-attr="aria-label:p2.alt">
             <div class="mock fash" aria-hidden="true">
               <div class="poster"><small data-i18n="m2.k">Campanha</small><h4 data-i18n="m2.h">A tua marca, em movimento.</h4></div>
               <div class="reel"><span class="tag">Reels</span><span class="pl"><svg viewBox="0 0 24 24"><use href="#i-play"/></svg></span><span class="pg"></span></div>
@@ -243,7 +243,7 @@
       <article class="case" aria-labelledby="p3-t">
         <div>
           <span class="badge"><svg class="icon" aria-hidden="true"><use href="#i-flask"/></svg><span data-i18n="prj.badge">Conceito demonstrativo</span></span>
-          <div class="vis v-barb" role="img" aria-label="Pré-visualização ilustrativa de uma aplicação de marcações para barbearia: ecrã de telemóvel para escolher serviço e painel com estados dos pedidos" data-i18n-attr="aria-label:p3.alt">
+          <div class="vis v-barb" data-tilt="4" role="img" aria-label="Pré-visualização ilustrativa de uma aplicação de marcações para barbearia: ecrã de telemóvel para escolher serviço e painel com estados dos pedidos" data-i18n-attr="aria-label:p3.alt">
             <div class="mock barb" aria-hidden="true">
               <div class="phone">
                 <h4 data-i18n="m3.h">Marcar serviço</h4>
@@ -368,8 +368,11 @@
   </div>
 </footer>
 
-<script src="assets/js/config.js"></script>
-<script src="assets/js/translations.js"></script>
-<script src="assets/js/main.js"></script>
+<a class="fab" id="fab-wa" href="https://wa.me/244936638440" target="_blank" rel="noopener" aria-label="WhatsApp" data-i18n-attr="aria-label:fab.aria"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="fab.t">Falar no WhatsApp</span></a>
+
+<script src="assets/js/config.js?v=2"></script>
+<script src="assets/js/translations.js?v=2"></script>
+<script src="assets/js/main.js?v=2"></script>
+<script src="assets/js/scene3d.js?v=2"></script>
 </body>
 </html>
