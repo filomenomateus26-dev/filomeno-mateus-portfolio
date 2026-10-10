@@ -339,3 +339,11 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:800;letter-spacing:-.025em;li
 @media (prefers-reduced-motion:reduce){
   [data-tilt],[data-tilt] *{transform:none!important;transition:none!important}
 }
+
+/* Botão flutuante de WhatsApp (só telemóvel) */
+.fab{position:fixed;z-index:60;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 20px;border-radius:99px;
+  background:var(--accent);color:var(--on-accent);font-weight:600;text-decoration:none;box-shadow:0 14px 34px -12px rgba(255,84,48,.6);
+  opacity:0;transform:translateY(24px);pointer-events:none;transition:opacity .3s,transform .3s}
+.fab.show{opacity:1;transform:none;pointer-events:auto}
+@media (min-width:900px){ .fab{display:none} }
+@media (prefers-reduced-motion:reduce){ .fab{transition:none} }
