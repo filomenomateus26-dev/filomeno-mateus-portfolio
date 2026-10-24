@@ -13,11 +13,10 @@
 <meta name="theme-color" content="#0A0A0B">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="image" href="assets/img/filomeno-mateus-780.webp" imagesrcset="assets/img/filomeno-mateus-520.webp 520w, assets/img/filomeno-mateus-780.webp 780w, assets/img/filomeno-mateus-994.webp 994w" imagesizes="(min-width:900px) 520px, 86vw" fetchpriority="high">
-<!-- Quando tiveres o domínio real, descomenta e substitui O-TEU-DOMINIO (ver README):
-<link rel="canonical" href="https://O-TEU-DOMINIO/">
-<meta property="og:url" content="https://O-TEU-DOMINIO/">
-<meta property="og:image" content="https://O-TEU-DOMINIO/og-image.png">
--->
+<link rel="canonical" href="https://filomenomateus26-dev.github.io/filomeno-mateus-portfolio/">
+<meta property="og:url" content="https://filomenomateus26-dev.github.io/filomeno-mateus-portfolio/">
+<meta property="og:image" content="https://filomenomateus26-dev.github.io/filomeno-mateus-portfolio/og-image.png">
+<meta property="og:image:alt" content="Portfólio de Filomeno Mateus — Digital Designer &amp; Web Solutions Freelancer">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -211,8 +210,9 @@
         <div class="case-info">
           <span class="cat"><svg class="icon" aria-hidden="true"><use href="#i-layout"/></svg><span data-i18n="p1.cat">Web Design / Landing Page</span></span>
           <h3 id="p1-t" data-i18n="p1.t">Landing page para restaurante</h3>
-          <p class="d" data-i18n="p1.d">Conceito de página para apresentar menu, localização, horários e um caminho claro para pedidos ou reservas.</p>
-          <div class="obj"><b data-i18n="prj.obj">Objetivo</b><span data-i18n="p1.o">Encurtar o caminho entre ver o menu e fazer uma reserva.</span></div>
+          <p class="d" data-i18n="p1.d">Cenário conceptual: reunir o menu, horário, localização e reserva numa página clara, sobretudo para quem chega pelo telemóvel.</p>
+          <div class="obj"><b data-i18n="prj.obj">Objetivo</b><span data-i18n="p1.o">Facilitar a decisão do visitante e deixar um caminho claro até à reserva.</span></div>
+          <div class="obj"><b data-i18n="prj.approach">Abordagem</b><span data-i18n="p1.approach">Dar prioridade às informações práticas e manter a ação de reserva visível, sem esconder o menu e os contactos.</span></div>
           <a class="btn btn-ghost" href="#contact" data-service="websites" data-project="p1"><span data-i18n="prj.cta">Quero um projeto semelhante</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </div>
       </article>
@@ -297,10 +297,10 @@
   <div class="wrap contact-grid">
     <div>
       <h2 id="contact-h" data-i18n="ct.h">Vamos conversar sobre o teu projeto.</h2>
-      <p class="intro" data-i18n="ct.p">Conta-me o que pretendes criar. Vamos analisar a tua ideia e definir os próximos passos.</p>
+      <p class="intro" data-i18n="ct.p">Conta-me o que pretendes criar. O serviço e o orçamento são opcionais; indica apenas o essencial para começarmos a conversa.</p>
       <div class="methods">
         <a class="method frame" id="mail-link" href="mailto:filomenomateus26@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><div><small data-i18n="ct.email">Email</small><span>filomenomateus26@gmail.com</span></div></a>
-        <a class="method frame" id="wa-link" href="https://wa.me/244936638440" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><div><small>WhatsApp</small><span>+244 936 638 440</span></div></a>
+        <a class="method frame" id="wa-link" href="https://wa.me/244936456190" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><div><small>WhatsApp</small><span>+244 936 456 190</span></div></a>
       </div>
       <div class="socials" id="socials" hidden aria-label="Redes sociais" data-i18n-attr="aria-label:ct.social"></div>
     </div>
@@ -309,17 +309,17 @@
       <div class="hp" aria-hidden="true"><label>Website<input type="text" name="website" id="f-hp" tabindex="-1" autocomplete="off"></label></div>
       <div class="field"><label for="f-name" data-i18n="f.name">Nome</label><input class="inp" id="f-name" name="name" type="text" autocomplete="name" aria-describedby="e-name" required><p class="err" id="e-name"></p></div>
       <div class="field"><label for="f-email" data-i18n="f.email">Email</label><input class="inp" id="f-email" name="email" type="email" autocomplete="email" inputmode="email" aria-describedby="e-email" required><p class="err" id="e-email"></p></div>
-      <div class="field"><label for="f-service" data-i18n="f.service">Serviço de interesse</label>
-        <select class="sel" id="f-service" name="service" aria-describedby="e-service" required>
+      <div class="field"><label for="f-service"><span data-i18n="f.service">Serviço de interesse</span> <span class="opt-t" data-i18n="f.opt">(opcional)</span></label>
+        <select class="sel" id="f-service" name="service">
           <option value="" data-i18n="f.s0">Seleciona um serviço</option>
           <option value="websites" data-i18n="f.s1">Websites &amp; Landing Pages</option>
           <option value="content" data-i18n="f.s2">Conteúdo audiovisual &amp; design para redes sociais</option>
           <option value="apps" data-i18n="f.s3">Aplicações web &amp; micro-SaaS</option>
           <option value="other" data-i18n="f.s4">Ainda não sei / outro</option>
-        </select><p class="err" id="e-service"></p></div>
+        </select></div>
       <div class="field"><label for="f-msg" data-i18n="f.msg">Descrição do projeto</label><textarea class="ta" id="f-msg" name="message" aria-describedby="e-msg" required></textarea><p class="err" id="e-msg"></p></div>
-      <div class="field"><label for="f-budget"><span data-i18n="f.budget">Orçamento</span> <span class="opt-t" data-i18n="f.opt">(opcional)</span></label><input class="inp" id="f-budget" name="budget" type="text" data-i18n-attr="placeholder:f.bph" placeholder="Ex.: 150 000 Kz ou 300 USD" autocomplete="off"></div>
-      <div class="field"><label class="consent" for="f-consent"><input type="checkbox" id="f-consent" name="consent" aria-describedby="e-consent"><span data-i18n="f.consent">Aceito que os meus dados sejam usados apenas para responder a este pedido.</span></label><p class="err" id="e-consent"></p></div>
+      <div class="field"><label for="f-budget"><span data-i18n="f.budget">Orçamento</span> <span class="opt-t" data-i18n="f.opt">(opcional)</span></label><input class="inp" id="f-budget" name="budget" type="text" data-i18n-attr="placeholder:f.bph" placeholder="Ex.: a partir de 60 000 Kz ou 300 USD" autocomplete="off"></div>
+      <div class="field"><label class="consent" for="f-consent"><input type="checkbox" id="f-consent" name="consent" aria-describedby="e-consent" required><span data-i18n="f.consent">Aceito que os meus dados sejam usados apenas para responder a este pedido.</span></label><p class="err" id="e-consent"></p></div>
       <div class="form-actions">
         <button class="btn btn-accent" type="submit"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="f.send">Enviar por email</span></button>
         <button class="btn btn-ghost" type="button" id="send-wa"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="f.sendwa">Enviar por WhatsApp</span></button>
@@ -353,7 +353,7 @@
         <h3 data-i18n="foot.contact">Contacto</h3>
         <ul>
           <li><a href="mailto:filomenomateus26@gmail.com" id="foot-mail">filomenomateus26@gmail.com</a></li>
-          <li><a href="https://wa.me/244936638440" id="foot-wa" target="_blank" rel="noopener">WhatsApp +244 936 638 440</a></li>
+          <li><a href="https://wa.me/244936456190" id="foot-wa" target="_blank" rel="noopener">WhatsApp +244 936 456 190</a></li>
         </ul>
         <div class="socials" id="foot-socials" hidden></div>
       </div>
@@ -368,11 +368,11 @@
   </div>
 </footer>
 
-<a class="fab" id="fab-wa" href="https://wa.me/244936638440" target="_blank" rel="noopener" aria-label="WhatsApp" data-i18n-attr="aria-label:fab.aria"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="fab.t">Falar no WhatsApp</span></a>
+<a class="fab" id="fab-wa" href="https://wa.me/244936456190" target="_blank" rel="noopener" aria-label="WhatsApp" data-i18n-attr="aria-label:fab.aria"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span data-i18n="fab.t">Falar no WhatsApp</span></a>
 
 <script src="assets/js/config.js?v=2"></script>
-<script src="assets/js/translations.js?v=2"></script>
-<script src="assets/js/main.js?v=2"></script>
-<script src="assets/js/scene3d.js?v=2"></script>
+<script src="assets/js/translations.js?v=3"></script>
+<script src="assets/js/main.js?v=3"></script>
+<script src="assets/js/scene3d.js?v=3"></script>
 </body>
 </html>

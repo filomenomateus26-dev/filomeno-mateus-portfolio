@@ -56,11 +56,11 @@ Para receber pedidos diretamente:
 3. Em `netlify.toml` e/ou `vercel.json`, acrescenta o domínio do serviço a `connect-src` na política `Content-Security-Policy`, senão o navegador bloqueia o pedido.
 4. Testa o envio. A mensagem de sucesso só aparece quando o serviço responde com sucesso (o código já trata isso).
 
-## Domínio próprio (mais tarde)
+## URL público e domínio próprio
 
-1. Compra o domínio e associa-o no painel do serviço (Netlify, Vercel ou GitHub Pages). O domínio e o alojamento têm custos próprios.
-2. No `index.html`, descomenta o bloco de `canonical`, `og:url` e `og:image` e troca `O-TEU-DOMINIO` pelo endereço real. Isto faz a pré-visualização ao partilhar o link mostrar a imagem `og-image.png`.
-3. Cria `sitemap.xml` com o URL real e acrescenta a linha `Sitemap:` ao `robots.txt`.
+O URL atual do GitHub Pages já está configurado como canonical e nos metadados de partilha do `index.html`. O `sitemap.xml` lista a página inicial e o `robots.txt` aponta para o sitemap.
+
+Se associares um domínio próprio mais tarde, atualiza o URL base nos três ficheiros (`index.html`, `sitemap.xml` e `robots.txt`) para o novo endereço. No GitHub Pages, mantém o caminho `/filomeno-mateus-portfolio/` enquanto o site estiver publicado neste repositório.
 
 ## Lista antes de divulgar
 

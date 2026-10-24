@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# Quando tiveres o domínio, adiciona: Sitemap: https://O-TEU-DOMINIO/sitemap.xml
+Sitemap: https://filomenomateus26-dev.github.io/filomeno-mateus-portfolio/sitemap.xml

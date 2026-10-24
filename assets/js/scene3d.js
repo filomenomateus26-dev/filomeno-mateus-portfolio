@@ -18,7 +18,8 @@
     document.body.prepend(canvas);
     document.documentElement.classList.add("has-3d");
 
-    const N = innerWidth < 700 ? 1800 : 3200;
+    const mobile = innerWidth < 700;
+    const N = mobile ? 900 : 3200;
     const TAU = Math.PI * 2;
     const rnd = () => Math.random();
     const shapes = [new Float32Array(N*3), new Float32Array(N*3), new Float32Array(N*3), new Float32Array(N*3), new Float32Array(N*3)];
@@ -135,7 +136,7 @@
 
     let W = 0, H = 0, pr = 1;
     function resize(){
-      pr = Math.min(devicePixelRatio || 1, 2);
+      pr = Math.min(devicePixelRatio || 1, mobile ? 1 : 1.5);
       W = innerWidth; H = innerHeight;
       canvas.width = Math.round(W*pr); canvas.height = Math.round(H*pr);
       gl.viewport(0, 0, canvas.width, canvas.height);
@@ -182,8 +183,13 @@
       gl.drawArrays(gl.POINTS, 0, N);
     }
 
-    let running = false, raf = 0;
+    let running = false, raf = 0, lastFrame = 0;
     function frame(time){
+      if (mobile && time - lastFrame < 1000/30 - 1) {
+        raf = requestAnimationFrame(frame);
+        return;
+      }
+      lastFrame = time;
       st.morph = lerp(st.morph, target(), 0.06);
       st.rx = lerp(st.rx, st.mx*0.5, 0.04);
       st.ry = lerp(st.ry, st.my*0.3, 0.04);

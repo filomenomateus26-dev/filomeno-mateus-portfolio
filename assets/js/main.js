@@ -98,7 +98,6 @@ const form = $("#form"), statusEl = $("#status");
 const fields = {
   name:    { el:$("#f-name"),    err:$("#e-name"),    ok:v => v.trim().length >= 2 },
   email:   { el:$("#f-email"),   err:$("#e-email"),   ok:v => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) },
-  service: { el:$("#f-service"), err:$("#e-service"), ok:v => !!v },
   msg:     { el:$("#f-msg"),     err:$("#e-msg"),     ok:v => v.trim().length >= 10 },
   consent: { el:$("#f-consent"), err:$("#e-consent"), ok:(v, el) => el.checked }
 };
@@ -136,7 +135,7 @@ function renderStatus(kind, type){
   statusEl.textContent = msg;
 }
 function buildText(){
-  const svcEl = fService; const svcLabel = svcEl.options[svcEl.selectedIndex].textContent;
+  const svcLabel = fService.value ? fService.options[fService.selectedIndex].textContent : t("mail.none");
   const b = $("#f-budget").value.trim();
   return [
     t("mail.name") + ": " + $("#f-name").value.trim(),
@@ -148,8 +147,8 @@ function buildText(){
 }
 async function submitMail(){
   if ($("#f-hp").value) return;                 // honeypot anti-spam
-  const svcLabel = fService.options[fService.selectedIndex].textContent;
-  const subject = t("mail.subject") + " — " + svcLabel;
+  const svcLabel = fService.value ? fService.options[fService.selectedIndex].textContent : "";
+  const subject = svcLabel ? t("mail.subject") + " — " + svcLabel : t("mail.subject");
   const body = buildText();
   if (CONFIG.formEndpoint) {
     renderStatus("s.sending");
