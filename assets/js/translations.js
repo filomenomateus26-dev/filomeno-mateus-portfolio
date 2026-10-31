@@ -44,7 +44,7 @@ pt:{
 },
 en:{
   "skip":"Skip to content","nav.aria":"Main","nav.menu":"Open menu","nav.home":"Home","nav.services":"Services","nav.projects":"Projects","nav.process":"Process","nav.contact":"Contact","lang.aria":"Language","cta.talk":"Let's talk","fab.t":"Chat on WhatsApp","fab.aria":"Chat with me on WhatsApp","role":"Digital Designer & Web Solutions Freelancer",
-  "hero.eyebrow":"DIGITAL DESIGNER & WEB SOLUTIONS FREELANCER", "hero.h1":"Digital solutions to present your business and make the next step easier.",
+  "hero.eyebrow":"DIGITAL DESIGNER & WEB SOLUTIONS FREELANCER", "hero.h1":"Digital solutions to position your business and make the next step easier.",
   "hero.sub":"I help brands and small businesses present their services, communicate clearly, and simplify tasks with websites, visual content, and digital tools.",
   "hero.cta1":"Let's talk","hero.cta2":"Explore projects","hero.label":"Angola + international clients",
   "hero.alt":"Portrait of Filomeno Mateus wearing a black suit, glasses and an orange tasseled cap",
@@ -67,7 +67,7 @@ en:{
   "m3.h":"Book a service","m3.s1":"Haircut","m3.s2":"Beard trim","m3.s3":"Haircut + beard","m3.go":"Request booking","m3.d":"Requests","m3.c":"Client","m3.st1":"Pending","m3.st2":"Confirmed","m3.st3":"Completed",
   "prc.title":"A simple process, from problem to solution",
   "prc.1.t":"Discovery","prc.1.d":"Understand the objective, audience, and problem.","prc.2.t":"Planning","prc.2.d":"Define project scope, priorities, and deliverables.","prc.3.t":"Production","prc.3.d":"Create, refine, and prepare project elements for delivery.",
-  "ct.h":"Let's talk about your project.","ct.p":"Tell me what you want to create. The service and budget are optional; just share the essentials to start the conversation.","ct.email":"Email","ct.wa":"WhatsApp","ct.form":"Share the details of your project",
+  "ct.h":"Let's build your next project.","ct.p":"Tell me what you want to create. The service and budget are optional — I’ll help you shape the right solution.","ct.email":"Email","ct.wa":"WhatsApp","ct.form":"Share the details of your project",
   "f.name":"Name","f.email":"Email","f.service":"Service of interest","f.s0":"Select a service","f.s1":"Websites & Landing Pages","f.s2":"Audiovisual content & social media design","f.s3":"Web applications & micro-SaaS",
   "f.msg":"Project description","f.budget":"Budget range","f.opt":"(optional)","f.bph":"E.g.: from 60,000 Kz or 300 USD","f.consent":"I agree that my data will be used only to reply to this request.",
   "f.send":"Send by email","f.sendwa":"Send via WhatsApp",
@@ -78,7 +78,7 @@ en:{
   "s.sending":"Sending…","s.ok":"Request sent. Thank you! I'll reply as soon as possible.","s.fail":"The request could not be sent. Try again or write to ",
   "mail.subject":"Contact request","mail.name":"Name","mail.email":"Email","mail.service":"Service","mail.budget":"Budget","mail.none":"not provided",
   "wa.general":"Hello Filomeno, I saw your portfolio and I'd like to talk about a project.",
-  "pre.p1":"Hello! I'd like to talk about a project similar to the concept “Restaurant landing page”.","pre.p2":"Hello! I'd like to talk about a project similar to the concept “Fashion brand campaign”.","pre.p3":"Hello! I'd like to talk about a concept similar to the “Barbershop appointment system”.",
+  "pre.p1":"Hello! I'd like to talk about a project similar to the concept “Restaurant landing page”.","pre.p2":"Hello! I'd like to talk about a project similar to the concept “Fashion brand campaign”.","pre.p3":"Hello! I'd like to talk about a project similar to the concept “Barbershop appointment system”.",
   "foot.tag":"I turn ideas into digital experiences.","foot.explore":"Explore","foot.contact":"Contact","foot.nav":"Footer",
   "meta.title":"Filomeno Mateus — Digital Designer & Web Solutions Freelancer","meta.desc":"Websites, visual content and small digital solutions for brands and businesses. Filomeno Mateus, Digital Designer & Web Solutions Freelancer.",
 }};
