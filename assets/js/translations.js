@@ -70,7 +70,7 @@ en:{
   "ct.h":"Let's talk about your project.","ct.p":"Tell me what you want to create. The service and budget are optional; just share the essentials to start the conversation.","ct.email":"Email","ct.wa":"WhatsApp","ct.form":"Share the details of your project",
   "f.name":"Name","f.email":"Email","f.service":"Service of interest","f.s0":"Select a service","f.s1":"Websites & Landing Pages","f.s2":"Audiovisual content & social media design","f.s3":"Web applications & micro-SaaS",
   "f.msg":"Project description","f.budget":"Budget range","f.opt":"(optional)","f.bph":"E.g.: from 60,000 Kz or 300 USD","f.consent":"I agree that my data will be used only to reply to this request.",
-  "f.send":"Send by email","f.sendwa":"Send on WhatsApp",
+  "f.send":"Send by email","f.sendwa":"Send via WhatsApp",
   "e.name":"Enter your name.","e.email":"Enter a valid email, for example name@example.com.","e.service":"Select the service you are interested in.","e.msg":"Describe the project in at least 10 characters.",
   "s.invalid":"Some fields need fixing. Check the messages in red.",
   "s.mail":"Your email app should now open with the message ready. The request is only sent once you press “Send” in your email app. If nothing opened, write to ",
@@ -78,7 +78,7 @@ en:{
   "s.sending":"Sending…","s.ok":"Request sent. Thank you! I'll reply as soon as possible.","s.fail":"The request could not be sent. Try again or write to ",
   "mail.subject":"Contact request","mail.name":"Name","mail.email":"Email","mail.service":"Service","mail.budget":"Budget","mail.none":"not provided",
   "wa.general":"Hello Filomeno, I saw your portfolio and I'd like to talk about a project.",
-  "pre.p1":"Hello! I'd like to talk about a project similar to the concept “Restaurant landing page”.","pre.p2":"Hello! I'd like to talk about a project similar to the concept “Fashion brand campaign”.","pre.p3":"Hello! I'd like to talk about a project similar to the concept “Barbershop appointment system”.",
+  "pre.p1":"Hello! I'd like to talk about a project similar to the concept “Restaurant landing page”.","pre.p2":"Hello! I'd like to talk about a project similar to the concept “Fashion brand campaign”.","pre.p3":"Hello! I'd like to talk about a concept similar to the “Barbershop appointment system”.",
   "foot.tag":"I turn ideas into digital experiences.","foot.explore":"Explore","foot.contact":"Contact","foot.nav":"Footer",
   "meta.title":"Filomeno Mateus — Digital Designer & Web Solutions Freelancer","meta.desc":"Websites, visual content and small digital solutions for brands and businesses. Filomeno Mateus, Digital Designer & Web Solutions Freelancer.",
 }};
